@@ -5,7 +5,6 @@ import { useState } from "react"
 
 
 const SignUp = () => {
-  console.log(auth)
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmpassword, setConfirmPassword] = useState("")
