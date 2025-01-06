@@ -52,7 +52,7 @@ const Card = () => {
                 <p>2</p>
             </div>
             <hr />
-            <div className="flex justify-between p-[10px] text-[18px]">
+            <div className="flex justify-between p-[10px] text-[18px] font-bold">
                 <p>Total</p>
                 <p>{totalPrice + 2}</p>
             </div>
