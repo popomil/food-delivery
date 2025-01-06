@@ -9,7 +9,6 @@ const SignUp = () => {
   const [email, setEmail] = useState("")
   const [password, setPassword] = useState("")
   const [confirmpassword, setConfirmPassword] = useState("")
-  console.log(email)
   const navigate = useNavigate()
   const signUp = (e) => {
     if(password != confirmpassword){

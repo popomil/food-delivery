@@ -6,8 +6,7 @@ import { useState } from "react"
 const SignIn = () => {
   const [password, setPassword] = useState("")
   const [email, setEmail] = useState("")
-  console.log(email)
-  const navigate = useNavigate()
+    const navigate = useNavigate()
   const signIn = (e) => {
     e.preventDefault()
     signInWithEmailAndPassword(auth,email,password).then((auth) => {
