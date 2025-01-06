@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer utilities {
+  .borderr{
+    @apply border-[4px] border-red-800
+  }
+  .container{
+    @apply  max-w-[80%]   mx-auto
+  }
+}
